@@ -62,7 +62,7 @@ validateJSON = (text) => {
 
 sortByAge = (weekArray) => {
     weekArray.sort((a, b) => {
-        return a.intDate - b.intDate;
+        return b.intDate - a.intDate;
     })
 
     return weekArray;
